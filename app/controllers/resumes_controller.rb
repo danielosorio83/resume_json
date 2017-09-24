@@ -1,6 +1,7 @@
 class ResumesController < ApplicationController
   # POST /resumes
   def create
+    @resume = Resume.new(permitted_params)
   end
 
   private

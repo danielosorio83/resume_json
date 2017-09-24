@@ -13,5 +13,15 @@ RSpec.describe ResumesController, type: :controller do
       post :create, params: valid_parameters, xhr: true
       expect(response).to render_template('create')
     end
+
+    it 'assigns @resume' do
+      post :create, params: valid_parameters, xhr: true
+      expect(assigns(:resume)).not_to be_nil
+    end
+
+    it 'calls `Resume.new`' do
+      expect(Resume).to receive(:new).with(kind_of(ActionController::Parameters))
+      post :create, params: valid_parameters, xhr: true
+    end
   end
 end
