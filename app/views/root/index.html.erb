@@ -17,3 +17,31 @@
   <hr>
   <div id="resume" class="card"></div>
 </div>
+
+<small class="form-text text-muted">
+  JSON Rules:
+  <br>
+  <code>"text" (this text goes inside for the html tag) => Hash</code>
+  <br>
+  <code>{</code>
+  <div style="white-space: pre;">
+    <code>"html_tag" => String (Required)</code>
+    <code>"css" => Hash (key: css property, value: property value)</code>
+    <code>"innerHTML" => Array of Hashes</code>
+    <code>"afterHTML" => Array of Hashes</code>
+    <code>"text" => String (Optional, overrides the key text or set the text)</code>
+  </div>
+  <code>}</code>
+  <br>
+  <br>
+  Example1 Input: <code>{"My Name": {"html_tag": "h1", "css": {"text-align": "center"}, "afterHTML": [{"html_tag": "p", "text": "something else"}], "innerHTML": []}}</code>
+  <br>
+  Example1 Output: <code>&lt;h1 style="text-align: center"&gt;My Name&lt;/h1&gt;&lt;p&gt;something else&lt;/p&gt;</code>
+  <br>
+  <br>
+  Example2 Input: <code>{"My Name": {"html_tag": "h1", "css": {"text-align": "center"}, "afterHTML": [], "innerHTML": [{"html_tag": "small", "text": "something else"}]}}</code>
+  <br>
+  Example2 Output: <code>&lt;h1 style="text-align: center"&gt;My Name&lt;small&gt;something else&lt;/small&gt;&lt;/h1&gt;</code>
+</small>
+
+<hr>

@@ -12,8 +12,15 @@ RSpec.describe 'Resumes', type: :request do
         expect(response.body).to match(/\$\(\"#resume\"\)\.html/)
       end
 
-      it 'matchs with some of the content' do
-        expect(response.body).to match("Hello World!")
+      it 'matchs with some of the json content' do
+        json = JSON.parse(json_file.read)
+        json.each_key do |key|
+          expect(response.body).to include(key)
+        end
+      end
+
+      it 'doesn\'t match with `alert`' do
+        expect(response.body).not_to match(/alert/)
       end
     end
 

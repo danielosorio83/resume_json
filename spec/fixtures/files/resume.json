@@ -1,3 +1,578 @@
 {
-  "test": "test"
+  "Daniel Osorio Ibañez": {
+    "html_tag": "h1",
+    "css": {
+      "text-align": "center"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "div",
+        "css": {
+          "text-align": "center",
+          "font-size": "20px",
+          "margin-bottom": "3em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "p",
+            "css": {
+              "text-align": "center",
+              "font-size": "20px",
+              "margin-bottom": "0"
+            },
+            "text": "Calle 3A # 25 - 66. Apt 1102"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "text-align": "center",
+              "font-size": "20px",
+              "margin-bottom": "0"
+            },
+            "text": "Puerto Colombia, Atlantico"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "text-align": "center",
+              "font-size": "20px",
+              "margin-bottom": "0"
+            },
+            "text": "Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "text-align": "center",
+              "font-size": "20px",
+              "margin-bottom": "0"
+            },
+            "text": "Phone: +57 (300) 816-9726"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "text-align": "center",
+              "font-size": "20px",
+              "margin-bottom": "0"
+            },
+            "text": "danielosorio83@gmail.com"
+          }
+        ]
+      }
+    ]
+  },
+  "KNOWLEDGES": {
+    "html_tag": "h2",
+    "css": {
+      "margin-bottom": "1.2em",
+      "margin-top": "1.5em"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "ul",
+        "css": {
+          "font-size": "18px"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "li",
+            "text": "Ruby"
+          },
+          {
+            "html_tag": "li",
+            "text": "Ruby on Rails"
+          },
+          {
+            "html_tag": "li",
+            "text": "PHP"
+          },
+          {
+            "html_tag": "li",
+            "text": "Wordpress"
+          },
+          {
+            "html_tag": "li",
+            "text": "HTML"
+          },
+          {
+            "html_tag": "li",
+            "text": "PostgreSQL"
+          },
+          {
+            "html_tag": "li",
+            "text": "MySQL"
+          },
+          {
+            "html_tag": "li",
+            "text": "JavaScript"
+          },
+          {
+            "html_tag": "li",
+            "text": "Ajax"
+          },
+          {
+            "html_tag": "li",
+            "text": "Ember"
+          },
+          {
+            "html_tag": "li",
+            "text": "Angular"
+          },
+          {
+            "html_tag": "li",
+            "text": "jQuery"
+          },
+          {
+            "html_tag": "li",
+            "text": "CSS"
+          }
+        ]
+      }
+    ]
+  },
+  "JOB EXPERIENCE": {
+    "html_tag": "h2",
+    "css": {
+      "margin-bottom": "1.2em",
+      "margin-top": "1.5em"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Senior Web Developer"
+          },
+          {
+            "html_tag": "h5",
+            "css": {
+              "font-weight": "bold"
+            },
+            "text": "Deep Space Robots"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "June 2013 - Current"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Dev. Environment: Ruby on Rails & Wordpress"
+          },
+          {
+            "html_tag": "ol",
+            "innerHTML": [
+              {
+                "html_tag": "li",
+                "text": "Develop high quality web apps, applying modern standards and best practices to guarantee full functionality of the developed systems."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Senior Web Developer"
+          },
+          {
+            "html_tag": "h5",
+            "css": {
+              "font-weight": "bold"
+            },
+            "text": "Koombea Ltda."
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "May 2010 - Jun 2013"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Barranquilla, Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Dev. Environment: Ruby on Rails"
+          },
+          {
+            "html_tag": "ol",
+            "innerHTML": [
+              {
+                "html_tag": "li",
+                "text": "Develop high quality web apps, applying modern standards and best practices to guarantee full functionality of the developed systems."
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "EDUCATION": {
+    "html_tag": "h2",
+    "css": {
+      "margin-bottom": "1.2em",
+      "margin-top": "1.5em"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Certified ScrumMaster (CSM)"
+          },
+          {
+            "html_tag": "h5",
+            "text": "Scrum Alliance"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Barranquilla, Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "November 2011"
+          }
+        ]
+      },
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Graduate. Specialist of Software Engineering"
+          },
+          {
+            "html_tag": "h5",
+            "text": "Postgrado. Universidad del Norte"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Barranquilla, Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "September 2008"
+          }
+        ]
+      },
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Undergraduate. Computer Science and Engineering"
+          },
+          {
+            "html_tag": "h5",
+            "text": "Universidad del Norte"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Barranquilla, Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "September 2006"
+          }
+        ]
+      }
+    ]
+  },
+  "OTHER STUDIES": {
+    "html_tag": "h2",
+    "css": {
+      "margin-bottom": "1.2em",
+      "margin-top": "1.5em"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "High-Intermediate English Level"
+          },
+          {
+            "html_tag": "h5",
+            "text": "ESL program of Capital Community College"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Hartford, Connecticut, USA"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "July 2011"
+          }
+        ]
+      },
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "VIII English Levels"
+          },
+          {
+            "html_tag": "h5",
+            "text": "Language Institute of Universidad del Norte"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Barranquilla, Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "November 2004"
+          }
+        ]
+      }
+    ]
+  },
+  "ACTIVITIES": {
+    "html_tag": "h2",
+    "css": {
+      "margin-bottom": "1.2em",
+      "margin-top": "1.5em"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "EmberConf 2015"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Portland, OR, USA"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "April 2015"
+          }
+        ]
+      },
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "XV National Congress of System Engineers Students"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Bogota, Colombia"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "April 2006"
+          }
+        ]
+      }
+    ]
+  },
+  "REFERENCES": {
+    "html_tag": "h2",
+    "css": {
+      "margin-bottom": "1.2em",
+      "margin-top": "1.5em"
+    },
+    "afterHTML": [
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Rob Momary"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "CEO - Deep Space Robots"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "14px"
+            },
+            "text": "+1 214 789 7895"
+          }
+        ]
+      },
+      {
+        "html_tag": "div",
+        "css": {
+          "margin-bottom": "1.5em"
+        },
+        "innerHTML": [
+          {
+            "html_tag": "h4",
+            "css": {
+              "font-style": "italic"
+            },
+            "text": "Alvaro Insignares"
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "18px",
+              "margin-bottom": "0"
+            },
+            "text": "Project Manager - Koombea Ltda."
+          },
+          {
+            "html_tag": "p",
+            "css": {
+              "font-size": "14px"
+            },
+            "text": "+57 300 641 6187"
+          }
+        ]
+      }
+    ]
+  }
 }
