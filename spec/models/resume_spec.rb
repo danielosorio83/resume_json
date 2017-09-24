@@ -1,7 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe Resume, type: :model do
-
+  # Accessors
   it { is_expected.to respond_to(:json) }
   it { is_expected.to respond_to(:message) }
 

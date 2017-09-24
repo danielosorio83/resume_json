@@ -2,7 +2,7 @@ require 'rails_helper'
 
 RSpec.describe ResumesHelper, type: :helper do
   let(:json_file) { fixture_file_upload("#{RSpec.configuration.fixture_path}/files/resume.json", 'application/json') }
-  let(:resume) { Resume.new({ resume: json_file }) }
+  let(:resume) { Resume.new(resume: json_file) }
   let(:json) { resume.json }
   let(:text) { json.first.first }
   let(:struct) { json.first.last }
