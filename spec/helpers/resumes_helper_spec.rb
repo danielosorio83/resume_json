@@ -1,15 +1,26 @@
 require 'rails_helper'
 
-# Specs in this file have access to a helper object that includes
-# the ResumesHelper. For example:
-#
-# describe ResumesHelper do
-#   describe "string concat" do
-#     it "concats two strings with spaces" do
-#       expect(helper.concat_strings("this","that")).to eq("this that")
-#     end
-#   end
-# end
 RSpec.describe ResumesHelper, type: :helper do
-  pending "add some examples to (or delete) #{__FILE__}"
+  let(:json_file) { fixture_file_upload("#{RSpec.configuration.fixture_path}/files/resume.json", 'application/json') }
+  let(:resume) { Resume.new(json_file) }
+
+  describe '#partial_name(resume)' do
+    context 'when `message` is blank' do
+      before do
+        allow(resume).to receive(:message).and_return(nil)
+      end
+      it 'returns `resume' do
+        expect(helper.partial_name(resume)).to eq('resume')
+      end
+    end
+
+    context 'when `message` is NOT blank' do
+      before do
+        allow(resume).to receive(:message).and_return('something')
+      end
+      it 'returns `error`' do
+        expect(helper.partial_name(resume)).to eq('error')
+      end
+    end
+  end
 end
